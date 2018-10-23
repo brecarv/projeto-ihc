@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 /*
 *{
 	margin: 0;
@@ -43,50 +42,49 @@ nav ul li:first-child{
 }
 */
 
-*{
-	margin: 0;
-	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
-nav{
-	width: 70%;
-	margin:auto;
-	background-color: #333;
+nav {
+  width: 70%;
+  margin: auto;
+  background-color: #333;
 }
 
-nav a{
-	text-decoration: none;
-	color: white;
+nav a {
+  text-decoration: none;
+  color: white;
 }
 
-a.nav-item{
-	list-style-type: none;
-    margin: 0 0 0 0;
-    padding: 0;
-    overflow: hidden;
-    color: white;
-    font-size: 1.1em;
+a.nav-item {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+  font-size: 1.1em;
 }
 
-
-a.nav-item:hover{
-	background-color: pink;
+a.nav-item:hover {
+  background-color: pink;
 }
 
-#principal{
-	padding: 2% 0 2% 0;
-	width: 70%;
-	margin:auto;
-	background-color: #d3d3d3;
-	color: white;
+#principal {
+  padding: 2% 0 2% 0;
+  width: 70%;
+  margin: auto;
+  background-color: #d3d3d3;
+  color: white;
 }
 
-#title{
-	font-size:1.8em;
-	text-align:center;
-	background-color: orange;
-	margin: 0 0 3% 0;
+#title {
+  font-size: 1.8em;
+  text-align: center;
+  background-color: orange;
+  margin: 0 0 3% 0;
 }
 
 /*
@@ -99,27 +97,27 @@ a.nav-item:hover{
 	background-color: blue;
 }*/
 
-#aboutCity{
-	margin: 5% 12% 0 12% !important;
-	width: 75% !important;
-	background-color: green !important;
-	border-radius:10px;
+#aboutCity {
+  margin: 5% 12% 0 12% !important;
+  width: 75% !important;
+  background-color: green !important;
+  border-radius: 10px;
 }
 
-#aboutCity p:first-child{
-	font-size: 1.3em !important;
+#aboutCity p:first-child {
+  font-size: 1.3em !important;
 }
 
-#aboutCity p{
-	font-size:1em !important;
-	padding: 2% 2% 2% 2% !important;
+#aboutCity p {
+  font-size: 1em !important;
+  padding: 2% 2% 2% 2% !important;
 }
 
-footer{
-	width: 70%;
-	margin:auto;
-	padding: 1% 0 1% 0;
-	background-color: #333;
-	color: white;
-	text-align: center;
+footer {
+  width: 70%;
+  margin: auto;
+  padding: 1% 0 1% 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
 }
