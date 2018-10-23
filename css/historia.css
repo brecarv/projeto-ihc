@@ -8,7 +8,7 @@
 nav {
   width: 70%;
   margin: auto;
-  background-color: #333;
+  background-color: #CEE2C9;
 }
 
 nav a {
@@ -21,7 +21,7 @@ a.nav-item {
   margin: 0 0 0 0;
   padding: 0;
   overflow: hidden;
-  color: white;
+  color: #1a3714;
   font-size: 1.1em;
 }
 
@@ -47,7 +47,7 @@ a.nav-item:hover {
 #text {
   width: 100%;
   display: flex;
-  background-color: pink;
+  background-color: #d3d3d3;
 }
 
 #primeiraColuna {
@@ -55,7 +55,8 @@ a.nav-item:hover {
   margin-left: 10%;
   padding: 1% 2% 1% 2%;
   display: inline-block;
-  background-color: purple;
+  background-color: #1a3714;
+  text-align: justify;
 }
 
 #segundaColuna {
@@ -63,14 +64,16 @@ a.nav-item:hover {
   margin-right: 10%;
   padding: 1% 2% 1% 2%;
   display: inline-block;
-  background-color: green;
+  background-color: #1a3714;
+  text-align: justify;
 }
 
 footer {
   width: 70%;
   margin: auto;
   padding: 1% 0 1% 0;
-  background-color: #333;
-  color: white;
+  background-color: #CEE2C9;
+  font-weight: none: ;
+  color: #1a3714;
   text-align: center;
 }

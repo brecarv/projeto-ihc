@@ -8,7 +8,7 @@
 nav {
   width: 70%;
   margin: auto;
-  background-color: #333;
+  background-color: #CEE2C9;
 }
 
 nav a {
@@ -21,7 +21,7 @@ a.nav-item {
   margin: 0 0 0 0;
   padding: 0;
   overflow: hidden;
-  color: white;
+  color: #1a3714;
   font-size: 1.1em;
 }
 
@@ -30,6 +30,7 @@ a.nav-item:hover {
 }
 
 #title {
+  color: #1a3714;
   text-align: center;
   margin: 0 0 2% 0;
 }
@@ -39,7 +40,7 @@ a.nav-item:hover {
   width: 70%;
   margin: auto;
   background-color: #d3d3d3;
-  color: white;
+  color: black;
 }
 
 #pontos {
@@ -50,10 +51,10 @@ a.nav-item:hover {
 }
 
 #pontos div {
-  border-style: solid;
+  border-style: none;
   width: 40%;
   padding: 2% 0 2% 0;
-  background-color: #1a3714;
+  background-color: #9BC491;
   text-align: justify;
   margin-bottom: 2%;
 }
@@ -63,7 +64,7 @@ a.nav-item:hover {
 }
 
 #pontos div img {
-  margin: 0 10% 0 10%;
+  margin: 0 10% 0 15%;
 }
 
 #pontos div p {
@@ -88,7 +89,36 @@ footer {
   width: 70%;
   margin: auto;
   padding: 1% 0 1% 0;
-  background-color: #333;
-  color: white;
+  background-color: #CEE2C9;
+  font-weight: none: ;
+  color: #1a3714;
   text-align: center;
+}
+
+.login_form.modal {
+  border-radius: 0;
+  line-height: 18px;
+  padding: 0;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+}
+.login_form h3 {
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  background: -moz-linear-gradient(top, #2e5764, #1e3d47);
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #1e3d47),color-stop(1, #2e5764));
+}
+.login_form.modal p { padding: 20px 30px; border-bottom: 1px solid #ddd; margin: 0;
+  background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #eee),color-stop(1, #fff));
+  overflow: hidden;
+}
+.login_form.modal p:last-child { border: none; }
+.login_form.modal p label { float: left; font-weight: bold; color: #333; font-size: 13px; width: 110px; line-height: 22px; }
+.login_form.modal p input[type="text"],
+.login_form.modal p input[type="password"] {
+  font: normal 12px/18px "Lucida Grande", Verdana;
+  padding: 3px;
+  border: 1px solid #ddd;
+  width: 200px;
 }
