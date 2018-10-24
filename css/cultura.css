@@ -16,6 +16,14 @@ nav a {
   color: white;
 }
 
+a.nav-item:hover {
+  color: pink;
+}
+
+a.nav-item.nav-link.active{
+  color: pink;
+}
+
 a.nav-item {
   list-style-type: none;
   margin: 0 0 0 0;

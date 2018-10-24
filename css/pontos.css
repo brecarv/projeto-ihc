@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +27,11 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-  background-color: pink;
+  color: pink;
+}
+
+a.nav-item.nav-link.active{
+  color: pink;
 }
 
 #title {
@@ -72,7 +77,7 @@ a.nav-item:hover {
   margin: 0 10% 0 10%;
 }
 
-p.tituloPonto{
+p.tituloPonto {
   text-align: center;
 }
 
@@ -96,7 +101,7 @@ footer {
   margin: auto;
   padding: 1% 0 1% 0;
   background-color: #CEE2C9;
-  font-weight: none: ;
+  font-weight: none:;
   color: #1a3714;
   text-align: center;
 }
@@ -107,24 +112,36 @@ footer {
   padding: 0;
   font-family: "Lucida Grande", Verdana, sans-serif;
 }
+
 .login_form h3 {
+  text-align: center;
   margin: 0;
   padding: 10px;
   color: #fff;
   font-size: 14px;
   background: -moz-linear-gradient(top, #2e5764, #1e3d47);
-  background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #1e3d47),color-stop(1, #2e5764));
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1e3d47), color-stop(1, #2e5764));
 }
-.login_form.modal p { padding: 20px 30px; border-bottom: 1px solid #ddd; margin: 0;
-  background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #eee),color-stop(1, #fff));
+
+.login_form.modal p {
+  text-align: justify;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(1, #fff));
   overflow: hidden;
 }
-.login_form.modal p:last-child { border: none; }
-.login_form.modal p label { float: left; font-weight: bold; color: #333; font-size: 13px; width: 110px; line-height: 22px; }
-.login_form.modal p input[type="text"],
-.login_form.modal p input[type="password"] {
-  font: normal 12px/18px "Lucida Grande", Verdana;
-  padding: 3px;
-  border: 1px solid #ddd;
-  width: 200px;
+
+.login_form.modal p:last-child {
+  border: none;
+}
+
+.login_form.modal p label {
+  float: left;
+  font-weight: bold;
+  color: #333;
+  font-size: 13px;
+  width: 110px;
+  line-height: 22px;
+}
 }

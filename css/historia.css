@@ -26,7 +26,11 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-  background-color: pink;
+  color: pink;
+}
+
+a.nav-item.nav-link.active{
+  color: pink;
 }
 
 #principal {
