@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Krub|Roboto');
+
 /*
 *{
 	margin: 0;
@@ -45,15 +47,14 @@ nav ul li:first-child{
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Krub', sans-serif;
 }
 
 nav {
   width: 70%;
   margin: auto;
-  background-color: #CEE2C9;
+  background-color: #73c662;
 }
-
 nav a {
   text-decoration: none;
   color: white;
@@ -85,12 +86,11 @@ a.nav-item.nav-link.active{
 }
 
 #title {
-  font-size: 1.8em;
+  color: #1a3714;
   text-align: center;
-  background-color: orange;
-  margin: 0 0 3% 0;
+  margin: 2% 0 4% 0;
+  font-size: 2em;
 }
-
 /*
 #imageCity{
 	background-image: url("../images/ceara-mirim2.jpg");
@@ -123,8 +123,12 @@ footer {
   width: 70%;
   margin: auto;
   padding: 1% 0 1% 0;
-  background-color: #CEE2C9;
+  background-color: #73c662;
   font-weight: none: ;
-  color: #1a3714;
   text-align: center;
 }
+
+footer a{
+  margin-right: 1%;
+}
+

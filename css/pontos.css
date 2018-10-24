@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Krub|Roboto');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Krub', sans-serif;
 }
 
 nav {
   width: 70%;
   margin: auto;
-  background-color: #CEE2C9;
+  background-color: #73c662;
 }
 
 nav a {
@@ -37,7 +38,8 @@ a.nav-item.nav-link.active{
 #title {
   color: #1a3714;
   text-align: center;
-  margin: 0 0 2% 0;
+  margin: 2% 0 4% 0;
+  font-size: 2em;
 }
 
 #principal {
@@ -68,13 +70,25 @@ a.nav-item.nav-link.active{
   margin-right: 2%;
 }
 
+p.tituloPonto{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4em !important;
+  margin: 2% 0 2% 0 !important;
+}
+
 #pontos div img {
   margin: 0 10% 0 15%;
 }
 
 #pontos div p {
-  text-align: none;
   margin: 0 10% 0 10%;
+  font-size: 0.9em;
+}
+
+#pontos div a{
+  color:white;
+  text-decoration: none;
 }
 
 p.tituloPonto {
@@ -82,11 +96,9 @@ p.tituloPonto {
 }
 
 .button {
-  margin-left: 10%;
-  margin-top: 2%;
+  margin: 2% 5% 0 65%;
   background-color: #4CAF50;
   border: none;
-  border-radius: 1em;
   color: white;
   padding: 2% 4% 2% 4%;
   text-align: center;
@@ -100,10 +112,13 @@ footer {
   width: 70%;
   margin: auto;
   padding: 1% 0 1% 0;
-  background-color: #CEE2C9;
-  font-weight: none:;
-  color: #1a3714;
+  background-color: #73c662;
+  font-weight: none: ;
   text-align: center;
+}
+
+footer a{
+  margin-right: 1%;
 }
 
 .login_form.modal {
