@@ -106,6 +106,8 @@ p.tituloPonto {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  border-bottom-color: pink;
+  border-bottom-style: solid;
 }
 
 footer {

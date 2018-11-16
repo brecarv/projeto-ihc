@@ -56,25 +56,33 @@ a.nav-item.nav-link.active{
 }
 
 #primeiraColuna {
-  width: 40%;
+  background-color: blue;
+  text-align: justify;
+  width: 50%;
+  padding: 0 1%;
+ /* width: 40%;
   margin-left: 10%;
   padding: 1% 2% 1% 2%;
   display: inline-block;
   background-color: #9BC491;
-  text-align: justify;
+  text-align: justify;*/
 }
 
-#primeiraColuna img{
+#text img{
   margin: 2% 4% 3% 5%;
 }
 
 #segundaColuna {
-  width: 40%;
+  background-color: red;
+  width:50%;
+  text-align: justify;
+  padding: 0 1%;
+ /* width: 40%;
   margin-right: 10%;
   padding: 1% 2% 1% 2%;
   display: inline-block;
   background-color: #9BC491;
-  text-align: justify;
+  text-align: justify;*/
 }
 footer {
   width: 70%;

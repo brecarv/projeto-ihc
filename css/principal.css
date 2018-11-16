@@ -70,7 +70,7 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-  color: pink;
+  color: white;
 }
 
 a.nav-item.nav-link.active{
@@ -88,9 +88,17 @@ a.nav-item.nav-link.active{
 #title {
   color: #1a3714;
   text-align: center;
-  margin: 2% 0 4% 0;
-  font-size: 2em;
+  margin: 2% 20% 4% 20%;
+  padding: 1%;
+  font-size: 1.7em;
+  background-color: red;
+  display:inline-block;
 }
+
+#title:hover{
+
+}
+
 /*
 #imageCity{
 	background-image: url("../images/ceara-mirim2.jpg");
@@ -107,7 +115,7 @@ a.nav-item.nav-link.active{
   background-color: #9BC491 !important;
   color: black;
   text-align: justify;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 
 #aboutCity p:first-child {
