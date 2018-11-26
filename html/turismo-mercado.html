@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title> Localizacao </title>
-	<link rel="stylesheet" type="text/css" href="../css/localizacao.css">
+	<title> Mercado Público </title>
+	<link rel="stylesheet" type="text/css" href="../css/mercadopublico.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-
 <body>
 	<nav class="navbar navbar-expand-lg">
 		<a class="navbar-brand" href="principal.html"><img src="../images/brasao_ceara_mirim.png" height="40px" /></a>
@@ -24,31 +22,19 @@
 		</div>
 	</nav>
 
-	<h1 id="title">Localização</h1>
+	<h1 id="title"> Mercado Público </h1>
 
-	<div style='margin-left:1%; color: #1a3714;'> <a href='principal.html'> Home </a>/<a href='localizacao.html'> Localização </a> </div>
+	<div style='margin-left:1%; margin-bottom: 2%; color: #1a3714;'> <a href='principal.html'> Home </a>/<a href='pontos.html'> Turismo </a> / <a href='mercadopublico.html'> Mercado Público </a> </div>
 
+	<img src='../images/mercadopublico.jpg' width='40%'/>
+	
 	<section id='principal'>
-		<section id='map'>
-			<script>
-				function initMap() {
-					var uluru = {
-						lat: -5.63333,
-						lng: -35.4333
-					};
-					var map = new google.maps.Map(document.getElementById('map'), {
-						zoom: 10,
-						center: uluru
-					});
-					var marker = new google.maps.Marker({
-						position: uluru,
-						map: map
-					});
-				}
-			</script>
-
-			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-ajOzclJa2U-e_nxab_qy7KgntBFy8tM&callback=initMap"></script>
-		</section>
+		<p>
+			Restaurado recentemente pela Prefeitura Municipal, o Mercado Público é símbolo da próspera atividade econômca no período da exploração da cana-de-açúcar. Construído por volta de 1880, o mercado era um entreposto para a comercialização dos produtos da cana de açúcar (rapadura, mel, álcool, açúcar, melaço e aguardente).
+			Quem o construiu foi o Coronel Onofre José Soares ,com recursos próprios, adquirindo assim o direito de explorá-lo durante vinte anos.
+			A feira, até ali realizada na Rua Grande foi obrigada  a se mudar para o novo prédio,causando uma grande revolta popular.
+			As fachadas da construção têm ao centro portões de ferro, dentro de vãos com arcos . Nas laterais existem três portões de ferro, também em vãos de arco .O telhado é sustentado por tesouras em madeira sobreposta numa alta coluna interna. O prédio foi tombado pela fundação José Augusto em 21-01-1984 e durante o ano é realizada uma programação com shows de música ao vivo uma vez por semana, num espaço aberto a novos artistas.
+			</p>
 	</section>
 
 	<footer>
@@ -61,12 +47,5 @@
 		</div>
 	</footer>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
-
 </html>

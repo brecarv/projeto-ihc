@@ -8,9 +8,9 @@
 }
 
 nav {
-  width: 70%;
+  width: 100%;
   margin: auto;
-  background-color: #73c662;
+  background-color: #cee2c9;
 }
 
 nav a {
@@ -28,25 +28,29 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-  color: pink;
+  color: white;
 }
 
 a.nav-item.nav-link.active{
-  color: pink;
+  color: white;
 }
 
 #title {
+  width: 100%;
   color: #1a3714;
   text-align: center;
-  margin: 2% 0 4% 0;
+  padding: 4%;
   font-size: 2em;
+  background-image:url('../images/ceara-mirim.jpg');
+  font-family: 'Krub', sans-serif;
+  /*background-size:cover;*/
 }
+
 
 #principal {
   padding: 2% 0 2% 0;
   width: 70%;
   margin: auto;
-  background-color: #d3d3d3;
   color: black;
 }
 
@@ -97,7 +101,7 @@ p.tituloPonto {
 
 .button {
   margin: 2% 5% 0 65%;
-  background-color: #4CAF50;
+  background-color: #73c662;
   border: none;
   color: white;
   padding: 2% 4% 2% 4%;
@@ -106,15 +110,13 @@ p.tituloPonto {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  border-bottom-color: pink;
-  border-bottom-style: solid;
 }
 
 footer {
-  width: 70%;
+  width: 100%;
   margin: auto;
   padding: 1% 0 1% 0;
-  background-color: #73c662;
+  background-color: #cee2c9;
   font-weight: none: ;
   text-align: center;
 }
@@ -160,5 +162,4 @@ footer a{
   font-size: 13px;
   width: 110px;
   line-height: 22px;
-}
 }

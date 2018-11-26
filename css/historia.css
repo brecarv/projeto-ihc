@@ -6,10 +6,11 @@
   font-family: 'Krub', sans-serif;
 }
 
+
 nav {
-  width: 70%;
+  width: 100%;
   margin: auto;
-  background-color: #73c662;
+  background-color: #cee2c9;
 }
 
 nav a {
@@ -27,39 +28,48 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-  color: pink;
+  color: white;
 }
 
 a.nav-item.nav-link.active{
-  color: pink;
+  color: white;
 }
 
 #principal {
   padding: 2% 0 2% 0;
-  width: 70%;
-  margin: auto;
-  background-color: #d3d3d3;
+  width: 100%;
   color: white;
 }
 
 #title {
+  width: 100%;
   color: #1a3714;
   text-align: center;
-  margin: 2% 0 4% 0;
+  padding: 4%;
   font-size: 2em;
+  background-image:url('../images/ceara-mirim.jpg');
+  font-family: 'Krub', sans-serif;
+  /*background-size:cover;*/
 }
 
 #text {
-  width: 100%;
+  width: 75%;
+  margin: 0 13% 0 13%;
   display: flex;
   background-color: #d3d3d3;
 }
 
+#text1{
+  width: 75%;
+  margin: 0 13% 0 13%;
+}
+
 #primeiraColuna {
-  background-color: blue;
   text-align: justify;
   width: 50%;
-  padding: 0 1%;
+  padding: 2% 2% 2% 2%;
+  background-color: #9BC491!important;
+  color: black;
  /* width: 40%;
   margin-left: 10%;
   padding: 1% 2% 1% 2%;
@@ -68,15 +78,16 @@ a.nav-item.nav-link.active{
   text-align: justify;*/
 }
 
-#text img{
-  margin: 2% 4% 3% 5%;
+#text1 img{
+  margin: 2% 30% 2% 30%;
 }
 
 #segundaColuna {
-  background-color: red;
   width:50%;
   text-align: justify;
-  padding: 0 1%;
+  padding: 2% 2% 0 2%;
+  background-color: #9BC491!important;
+  color: black;
  /* width: 40%;
   margin-right: 10%;
   padding: 1% 2% 1% 2%;
@@ -84,11 +95,12 @@ a.nav-item.nav-link.active{
   background-color: #9BC491;
   text-align: justify;*/
 }
+
 footer {
-  width: 70%;
+  width: 100%;
   margin: auto;
   padding: 1% 0 1% 0;
-  background-color: #73c662;
+  background-color: #cee2c9;
   font-weight: none: ;
   text-align: center;
 }
