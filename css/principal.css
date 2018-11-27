@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Krub|Roboto');
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px !important;
+  width: 40px !important;
+  outline: black;
+  background-size: 100%, 100%;
+  background-color: red;
+ /*
+  border-radius: 50%;
+  border: 1px solid black;  */
+  background-image: none;
+}
+
+.carousel-inner>.item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
 /*
 *{
 	margin: 0;
@@ -150,3 +172,41 @@ footer a{
   margin-right: 1%;
 }
 
+a#textoMenu{
+  color: #1a3714;
+}
+
+.dropbtn {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #cee2c9;
+    color: #1a3714;
+    font-size: 1.1em;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none !important;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #cee2c9;}
