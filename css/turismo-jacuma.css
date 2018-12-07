@@ -36,23 +36,19 @@ a.nav-item.nav-link.active{
 }
 
 #title {
+  margin-top: 2%;
   width: 100%;
   color: #1a3714;
   text-align: center;
-  padding: 4%;
   font-size: 2em;
-  background-image:url('../images/praia-jacuma (1).jpg');
   font-family: 'Krub', sans-serif;
-  background-size:cover;
-  background-repeat: no-repeat;
-  margin-bottom:3%;
 }
 
 #principal{
   width: 75%;
   text-align: justify;
   color: black;
-  background-color: #9BC491!important;
+  background-color: #cee2c9!important;
   padding: 2%;
   margin:0 auto;
 }

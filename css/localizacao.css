@@ -42,12 +42,11 @@ a.nav-item.nav-link.active{
 }
 
 #title {
+  margin-top: 2%;
   width: 100%;
   color: #1a3714;
   text-align: center;
-  padding: 4%;
   font-size: 2em;
-  background-image:url('../images/ceara-mirim.jpg');
   font-family: 'Krub', sans-serif;
 }
 

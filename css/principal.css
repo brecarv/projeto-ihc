@@ -113,18 +113,13 @@ a.nav-item.nav-link.active{
 }
 
 #title {
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 100%;
   color: #1a3714;
   text-align: center;
-  padding: 4%;
   font-size: 2em;
-  background-image:url('../images/ceara-mirim.jpg');
-  background-size: 100%;
   font-family: 'Krub', sans-serif;
-}
-
-#title:hover{
-
 }
 
 /*
@@ -145,7 +140,7 @@ a.nav-item.nav-link.active{
 #aboutCity {
   margin: 5% 12% 0 12% !important;
   width: 75% !important;
-  background-color: #9BC491!important;
+  background-color: #cee2c9!important;
   color: black;
   text-align: justify;
 }
